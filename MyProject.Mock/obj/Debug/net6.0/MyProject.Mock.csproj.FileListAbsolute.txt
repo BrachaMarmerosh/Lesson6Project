@@ -1,0 +1,5 @@
+D:\תכנות ו\dotnet\Lesson6Project\MyProject.Mock\obj\Debug\net6.0\MyProject.Mock.csproj.AssemblyReference.cache
+D:\תכנות ו\dotnet\Lesson6Project\MyProject.Mock\obj\Debug\net6.0\MyProject.Mock.GeneratedMSBuildEditorConfig.editorconfig
+D:\תכנות ו\dotnet\Lesson6Project\MyProject.Mock\obj\Debug\net6.0\MyProject.Mock.AssemblyInfoInputs.cache
+D:\תכנות ו\dotnet\Lesson6Project\MyProject.Mock\obj\Debug\net6.0\MyProject.Mock.AssemblyInfo.cs
+D:\תכנות ו\dotnet\Lesson6Project\MyProject.Mock\obj\Debug\net6.0\MyProject.Mock.csproj.CoreCompileInputs.cache
