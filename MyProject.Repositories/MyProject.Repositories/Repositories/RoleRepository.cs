@@ -12,6 +12,11 @@ namespace MyProject.Repositories.Repositories
     public class RoleRepository : IRole
     {
         IMockContext context;
+
+        public RoleRepository()
+        {
+        }
+
         public RoleRepository(IMockContext contextt)
         {
              context = contextt;

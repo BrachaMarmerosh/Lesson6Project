@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "MyProject.Mock/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MyProject.Repositories": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MyProject.Mock.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyProject.Mock.dll": {}
+        }
+      },
+      "MyProject.Repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MyProject.Repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyProject.Repositories.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MyProject.Mock/1.0.0": {
+      "type": "project",
+      "path": "../MyProject.Mock/MyProject.Mock.csproj",
+      "msbuildProject": "../MyProject.Mock/MyProject.Mock.csproj"
+    },
+    "MyProject.Repositories/1.0.0": {
+      "type": "project",
+      "path": "../MyProject.Repositories/MyProject.Repositories/MyProject.Repositories.csproj",
+      "msbuildProject": "../MyProject.Repositories/MyProject.Repositories/MyProject.Repositories.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "MyProject.Mock >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\user1\\.nuget\\packages\\": {},
@@ -38,7 +75,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\תכנות ו\\dotnet\\Lesson6Project\\MyProject.Mock\\MyProject.Mock.csproj": {
+              "projectPath": "D:\\תכנות ו\\dotnet\\Lesson6Project\\MyProject.Mock\\MyProject.Mock.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
